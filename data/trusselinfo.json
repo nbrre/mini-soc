@@ -1,0 +1,5 @@
+{
+  "198.51.100.77": {"kategori": "skanner", "beskrivelse": "Kjent for SSH-skanning og passordgjetting mot mange virksomheter.", "sist_sett": "2026-10-25"},
+  "203.0.113.99": {"kategori": "phishing", "beskrivelse": "Server som brukes til falske innloggingssider for norske banker.", "sist_sett": "2026-10-26"},
+  "203.0.113.45": {"kategori": "botnett", "beskrivelse": "Del av botnett som gjetter root-passord.", "sist_sett": "2026-10-20"}
+}

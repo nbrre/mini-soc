@@ -1,0 +1,7 @@
+{
+  "mia": {"navn": "Mia (fiktiv)", "avdeling": "Økonomi", "sted": "Oslo", "mfa": false, "privilegert": false, "tilganger": ["Økonomi-SharePoint", "Fellesdisk"]},
+  "ole": {"navn": "Ole (fiktiv)", "avdeling": "IT", "sted": "Oslo", "mfa": true, "privilegert": false, "tilganger": ["srv01", "Fellesdisk"]},
+  "kari": {"navn": "Kari (fiktiv)", "avdeling": "Salg", "sted": "Oslo", "mfa": true, "privilegert": false, "tilganger": ["CRM", "Fellesdisk"]},
+  "per": {"navn": "Per (fiktiv)", "avdeling": "Ledelse", "sted": "Oslo", "mfa": true, "privilegert": false, "tilganger": ["Fellesdisk"]},
+  "admin": {"navn": "Delt administratorkonto", "avdeling": "IT", "sted": "Oslo", "mfa": false, "privilegert": true, "tilganger": ["srv01", "Alle systemer"]}
+}
