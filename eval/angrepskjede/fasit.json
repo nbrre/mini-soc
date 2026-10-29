@@ -1,0 +1,6 @@
+{"saker": [
+  {"regler": ["bruker_rapporterer_kompromittering", "losepengevirus", "phishing", "suksess_etter_feil", "umulig_reise"], "alvor": "kritisk"},
+  {"regler": ["password_spraying"], "alvor": "høy"},
+  {"regler": ["brute_force"], "alvor": "middels"},
+  {"regler": ["utenfor_arbeidstid"], "alvor": "lav"}
+]}
