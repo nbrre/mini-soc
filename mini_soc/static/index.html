@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="no">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mini-SOC</title>
+<style>
+  :root { --bg:#0f1419; --kort:#18202a; --tekst:#e6edf3; --dempet:#8b98a5; --kant:#2a3542;
+          --kritisk:#f85149; --hoy:#f0883e; --middels:#d29922; --lav:#3fb950; --aksent:#58a6ff; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:15px/1.5 system-ui, sans-serif; background:var(--bg); color:var(--tekst); }
+  header { padding:16px 24px; border-bottom:1px solid var(--kant); display:flex; gap:16px; align-items:baseline; }
+  header h1 { margin:0; font-size:20px; } header span { color:var(--dempet); }
+  main { display:grid; grid-template-columns: minmax(280px, 380px) 1fr; gap:16px; padding:16px 24px; }
+  @media (max-width: 800px) { main { grid-template-columns: 1fr; padding:16px; } }
+  .sak { background:var(--kort); border:1px solid var(--kant); border-radius:8px; padding:12px; margin-bottom:8px; cursor:pointer; }
+  .sak:hover, .sak.valgt { border-color:var(--aksent); }
+  .merke { display:inline-block; padding:1px 8px; border-radius:99px; font-size:12px; font-weight:600; color:#0f1419; }
+  .kritisk { background:var(--kritisk); } .høy { background:var(--hoy); } .middels { background:var(--middels); } .lav { background:var(--lav); }
+  .dempet { color:var(--dempet); font-size:13px; }
+  #detalj { background:var(--kort); border:1px solid var(--kant); border-radius:8px; padding:16px 20px; min-height:300px; }
+  .tidslinje { border-left:2px solid var(--kant); margin:8px 0 16px 6px; padding-left:16px; }
+  .tidslinje div { margin-bottom:10px; }
+  button { background:var(--aksent); color:#0f1419; border:0; border-radius:6px; padding:8px 14px; font-weight:600; cursor:pointer; }
+  button:disabled { opacity:.5; cursor:wait; }
+  ul { padding-left:20px; } h2 { margin-top:0; } h3 { margin-bottom:4px; }
+  .faser span { display:inline-block; border:1px solid var(--kant); border-radius:4px; padding:0 6px; margin:2px 4px 2px 0; font-size:12px; }
+</style>
+</head>
+<body>
+<header><h1>🛡️ Mini-SOC</h1><span id="oppsummering"></span></header>
+<main>
+  <section id="liste"></section>
+  <section id="detalj"><p class="dempet">Velg en sak til venstre.</p></section>
+</main>
+<script src="/app.js"></script>
+</body>
+</html>
