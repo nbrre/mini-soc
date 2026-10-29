@@ -1,0 +1,7 @@
+.git
+.github
+_workflow
+tests
+__pycache__
+*.db
+.env

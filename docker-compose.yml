@@ -1,0 +1,12 @@
+services:
+  mini-soc:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"   # bare tilgjengelig fra din egen maskin
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
