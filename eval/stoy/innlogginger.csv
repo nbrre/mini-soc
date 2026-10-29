@@ -1,0 +1,6 @@
+tid,bruker,ip,land,resultat,app
+2026-10-28T08:01:00,kari@firma.example,192.0.2.10,NO,feil,Teams
+2026-10-28T08:01:40,kari@firma.example,192.0.2.10,NO,ok,Teams
+2026-10-28T08:15:00,ole@firma.example,192.0.2.10,NO,ok,Outlook
+2026-10-28T12:00:00,ole@firma.example,192.0.2.44,NO,ok,Outlook
+2026-10-28T17:30:00,per@firma.example,198.51.100.20,NO,ok,Outlook

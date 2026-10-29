@@ -1,0 +1,4 @@
+[{"id": "H-301", "tid": "2026-10-28T09:00:00", "avsender": "per@firma.example", "emne": "Nytt passord",
+  "tekst": "Jeg har glemt passordet mitt og trenger å få det tilbakestilt."},
+ {"id": "H-302", "tid": "2026-10-28T10:00:00", "avsender": "kari@firma.example", "emne": "Lenke i Teams",
+  "tekst": "Jeg klikket på lenken til kursmappen i Teams, men den åpner seg ikke."}]
